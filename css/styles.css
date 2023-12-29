@@ -1,0 +1,100 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        #response {
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+
+        #mytext {
+            width: 80%; /* Increased the width to 70% */
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-bottom: 10px;
+            height: 5em; /* Adjust the height as needed */
+
+        }
+
+        .signature {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #777;
+			}
+			
+        button.copy-button {
+			background-color: #008CBA;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 1em;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+
+		button.copy-button:hover {
+			background-color: #007B9D;
+		}
+
+		#copy-response-container {
+			margin-top: 10px;
+		}

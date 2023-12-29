@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+    <title>Rephraser GPT Bot</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, I am Rephraser GPT Bot</h1>
+        <form id="chat-form">
+            <label for="mytext">Enter message to rephrase:</label>
+            <input type="text" id="mytext" required rows="5">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="copy-response-container">
+            <h2>Response:</h2>
+            <textarea id="response" rows="10" readonly></textarea>
+            <button class="copy-button" onclick="copyToClipboard()">Copy Response</button>
+        </div>
+        <!-- Signature Section -->
+        <div class="signature">
+            Made with ❤️ by Roshan Vijay Shetty
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+    <script>
+        function copyToClipboard() {
+            var responseTextarea = document.getElementById("response");
+            responseTextarea.select();
+            document.execCommand("copy");
+        }
+    </script>
+</body>
+</html>
